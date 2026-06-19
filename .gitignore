@@ -1,0 +1,10 @@
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore Blender backup files
+*.blend1
+
+# Ignore render output directories
+Render/
+Render2/
