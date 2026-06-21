@@ -26,7 +26,7 @@ To run:
 conda activate building
 
 # Execute via Blender CLI
-& "C:\Program Files\Blender Foundation\Blender 3.6\blender.exe" --background --python Wall/scripts/build_scene_large_plastic_v4.py
+& "C:\Program Files\Blender Foundation\Blender 4.5\blender.exe" --background --python Wall/scripts/build_scene_large_plastic_v4.py
 ```
 
 ---
@@ -39,7 +39,7 @@ This project contains scripts to automate the physical loading and tensile simul
 To run:
 ```bash
 # Execute via Blender CLI
-& "C:\Program Files\Blender Foundation\Blender 3.6\blender.exe" --background --python ChickenBone/simulate_tensile.py
+& "C:\Program Files\Blender Foundation\Blender 4.5\blender.exe" --background --python ChickenBone/simulate_tensile.py
 ```
 
 ---
@@ -47,7 +47,7 @@ To run:
 ### Manual Deployment via Conda
 
 #### Prerequisites
-* **Blender 3.6** (or compatible) installed globally (typically `C:\Program Files\Blender Foundation\Blender 3.6\blender.exe`).
+* **Blender 4.5** (or compatible) installed globally (typically `C:\Program Files\Blender Foundation\Blender 4.5\blender.exe`).
 * Anaconda / Miniconda installed.
 
 #### Step-by-Step Setup
@@ -93,7 +93,7 @@ To run:
 conda activate building
 
 # 通过 Blender 命令行执行仿真脚本
-& "C:\Program Files\Blender Foundation\Blender 3.6\blender.exe" --background --python Wall/scripts/build_scene_large_plastic_v4.py
+& "C:\Program Files\Blender Foundation\Blender 4.5\blender.exe" --background --python Wall/scripts/build_scene_large_plastic_v4.py
 ```
 
 ---
@@ -106,7 +106,7 @@ conda activate building
 运行指令：
 ```bash
 # 通过 Blender 命令行执行拉伸仿真脚本
-& "C:\Program Files\Blender Foundation\Blender 3.6\blender.exe" --background --python ChickenBone/simulate_tensile.py
+& "C:\Program Files\Blender Foundation\Blender 4.5\blender.exe" --background --python ChickenBone/simulate_tensile.py
 ```
 
 ---
@@ -114,7 +114,7 @@ conda activate building
 ### 使用 Conda 进行手动部署
 
 #### 前提条件
-* 系统中已全局安装 **Blender 3.6**（或兼容版本，默认路径通常为 `C:\Program Files\Blender Foundation\Blender 3.6\blender.exe`）。
+* 系统中已全局安装 **Blender 4.5**（或兼容版本，默认路径通常为 `C:\Program Files\Blender Foundation\Blender 4.5\blender.exe`）。
 * 系统中已安装 Anaconda 或 Miniconda。
 
 #### 部署步骤
